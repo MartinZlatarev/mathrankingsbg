@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Контакти</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><img src="logo.png"></li>
+                <li><a href="home.html">Начало</a></li>
+                <li><a href="ranklist.html">Ранглиста</a></li>
+                <li><a href="about.html">За сайта</a></li>
+                <li><a href="usefullinks.html">Полезни връзки</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Контакти</h1>
+            <p>
+                Тук можете да отправите всякакви запитвания относно сайта или да предложите нещо за подобряването му.
+            </p>
+            <form action="https://formsubmit.co/marti.zlatarev@gmail.com" method="POST">
+                <label for="fname">Име и фамилия:</label><br>
+                <input type="text" name="name" id="name"><br>
+                <label for="email">Имейл:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="question">Въпрос или предложение:</label><br>
+                <textarea name="question" id="question" rows="5" cols="30"></textarea><br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </main>
+    </body>
+</html>
